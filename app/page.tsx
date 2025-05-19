@@ -30,6 +30,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-4 bg-gray-100">
+      <iframe allowTransparency={true} frameBorder="0" height='160' scrolling='no' src='https://www.strava.com/clubs/1340612/latest-rides/056d2933201cdcd87e82865880bd121216851565?show_rides=false' width='300'></iframe>
       <div className="w-full max-w-md mx-auto p-6 bg-white shadow-md rounded-md">
         <h1 className="text-2xl font-bold mb-4">Calculateur de temps (Riegel)</h1>
 
